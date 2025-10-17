@@ -1,0 +1,2 @@
+C:/Users/shifa/OneDrive/Desktop/ration_mate/build/.cxx/debug/2i3d1ho4/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/shifa/OneDrive/Desktop/ration_mate/build/.cxx/debug/2i3d1ho4/x86_64/CMakeFiles/rebuild_cache.dir
