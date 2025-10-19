@@ -14,8 +14,7 @@ class AdminRegisterPage extends StatefulWidget {
 }
 
 class _AdminRegisterPageState extends State<AdminRegisterPage>
-    with SingleTickerProviderStateMixin {
-  // Controllers
+    with SingleTickerProviderStateMixin {  // Controllers
   final TextEditingController _fpsController = TextEditingController();
   final TextEditingController _shopIdController = TextEditingController();
   final TextEditingController _salesmanIdController = TextEditingController();
