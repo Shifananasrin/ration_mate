@@ -19,10 +19,6 @@ class _MonthlyEntitlementPageState extends State<MonthlyEntitlementPage> {
 
   bool _isLoading = false;
 
-  // ✅ Use this if testing on Android Emulator
-  // final String baseUrl = 'http://10.0.2.2:8000/api/entitlement/';
-
-  // ✅ Use this if testing on real device connected to same WiFi
   final String baseUrl = 'http://10.102.138.202:8000/api/entitlement/';
 
   Future<void> _submitEntitlement() async {
