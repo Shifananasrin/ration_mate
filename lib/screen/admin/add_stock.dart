@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class AddStockItemPage extends StatefulWidget {
-  final String shopId; // ✅ Pass logged-in Shop ID
+  final String shopId; 
 
   const AddStockItemPage({super.key, required this.shopId});
 
@@ -24,7 +24,7 @@ class _AddStockPageState extends State<AddStockItemPage> {
       Uri.parse("http://192.168.196.202:8000/api/shopadmin/add-stock-item/"),
       headers: {"Content-Type": "application/json"},
       body: json.encode({
-        "shop_id": widget.shopId, // ✅ Send correct shop ID like SHOP123
+        "shop_id": widget.shopId, 
         "item_name": itemNameController.text,
         "quantity": qtyController.text,
       }),
