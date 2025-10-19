@@ -4,7 +4,7 @@ import 'dart:convert';
 
 class ShopStatusPage extends StatefulWidget {
   const ShopStatusPage({super.key, required String phoneNumber, required String userId});
-
+  
   @override
   State<ShopStatusPage> createState() => _SearchShopByPanchayathPageState();
 }
