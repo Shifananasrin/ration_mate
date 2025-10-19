@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import RationUser,HomeMenu,Owner,Stock,Shop
 
-# -------------------
+# ------------------
 # User Serializer
 # -------------------
 class UserSerializer(serializers.ModelSerializer):
