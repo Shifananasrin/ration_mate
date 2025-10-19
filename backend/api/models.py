@@ -167,4 +167,21 @@ class Complaint(models.Model):
     description = models.TextField()
     status = models.CharField(max_length=20, choices=STATUS_CHOICES)
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
+    updated_at = models.DateTimeField(auto_now=True
+
+                                      
+    class Notification(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.TextField(blank=True, null=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    is_active = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.title
+    title = models.CharField(max_length=100)
+    description = models.TextField(blank=True, null=True)  # make sure this exists
+    created_at = models.DateTimeField(auto_now_add=True)
+    is_active = models.BooleanField(default=True)         # make sure this exists
+
+    def __str__(self):
+        return self.title
