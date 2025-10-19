@@ -6,7 +6,7 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 import datetime
 
 
-# -------------------
+# ------------------
 # User Model
 # -------------------
 class RationUser(models.Model):
